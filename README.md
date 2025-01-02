@@ -45,8 +45,7 @@ Ensure you have the following installed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/mern-travel-booking.git
-   cd mern-travel-booking
-   ```
+
 
 2. Install dependencies for the backend:
    ```bash
@@ -80,7 +79,7 @@ Ensure you have the following installed:
 
 7. Open your browser and navigate to:
    ```
-   http://localhost:4000
+   http://localhost:3000
    ```
 
 ---
