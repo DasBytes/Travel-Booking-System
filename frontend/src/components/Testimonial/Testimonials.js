@@ -39,10 +39,7 @@ const setting={
 
     return  <Slider {...setting}>
     <div className="testimonial py-4 px-3">
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit,
-            explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipit earum debitis recusandae voluntate illum expedita
-            corrupi aliquid doloribus delectus?
+        <p> "TravelWorld made my vacation absolutely perfect! The booking process was seamless, and the tour options were diverse and well-organized. Highly recommended!"
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
          <img src={ava01} className='w-25 h-25 rounded-2' alt=""></img>
@@ -56,16 +53,13 @@ const setting={
         </div>
 
         <div className="testimonial py-4 px-3">
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit,
-            explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipit earum debitis recusandae voluntate illum expedita
-            corrupi aliquid doloribus delectus?
+        <p> "I loved how easy it was to find and book my dream tour. The customer service was fantastic, and the trip exceeded all my expectations!"
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
          <img src={ava02} className='w-25 h-25 rounded-2' alt=""></img>
          <div>
             <h6 className="mb-0 mtt-3">
-              Lia Franklin
+            Sophia Williams
             </h6>
             <p>Customer</p>
          </div>
@@ -73,16 +67,13 @@ const setting={
         </div>
 
         <div className="testimonial py-4 px-3">
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit,
-            explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipit earum debitis recusandae voluntate illum expedita
-            corrupi aliquid doloribus delectus?
+        <p> "TravelWorld turned my travel plans into an incredible experience. Everything was so well-managed, I will definitely book again!"
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
          <img src={ava03} className='w-25 h-25 rounded-2' alt=""></img>
          <div>
             <h6 className="mb-0 mtt-3">
-              John Doe
+            David Wilson
             </h6>
             <p>Customer</p>
          </div>
@@ -90,16 +81,13 @@ const setting={
         </div>
         
         <div className="testimonial py-4 px-3">
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus sit,
-            explicabo provident hic distinctio molestias voluptates nobis alias
-            placeat suscipit earum debitis recusandae voluntate illum expedita
-            corrupi aliquid doloribus delectus?
+        <p> "A truly unforgettable experience! TravelWorld took care of every detail, leaving me free to enjoy my trip without any worries."
         </p>
         <div className="d-flex align-items-center gap-4 mt-3">
          <img src={ava02} className='w-25 h-25 rounded-2' alt=""></img>
          <div>
             <h6 className="mb-0 mtt-3">
-              Lia Franklin
+            Sophia Williams
             </h6>
             <p>Customer</p>
          </div>

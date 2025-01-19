@@ -49,7 +49,7 @@ const Footer = () => {
         <Col lg="3">
         <div className="logo">
           <img src={logo} alt="" />
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, repudiandae!</p>
+          <p>Explore the world with ease and confidence. Your journey, our commitment to excellence</p>
           <div className="social_links d-flex align-items-center gap-4">
             <span>
             <Link to='#'><i class="ri-youtube-line"></i></Link>
@@ -109,7 +109,7 @@ const Footer = () => {
         <span><i className="ri-mail-line"></i></span>
         Email:
       </h6>
-      <p className="mb-0">dev.prantadas85463@gmail.com</p>
+      <p className="mb-0">dev.abc@gmail.com</p>
     </ListGroupItem>
 
     {/* Phone */}
@@ -118,7 +118,7 @@ const Footer = () => {
         <span><i className="ri-phone-fill"></i></span>
         Phone:
       </h6>
-      <p className="mb-0">+8801748953154</p>
+      <p className="mb-0">+123-456-7890</p>
     </ListGroupItem>
 
   </ListGroup>
