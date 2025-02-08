@@ -1,104 +1,91 @@
-MERN Stack Tours & Travels Booking Website
-A fully functional tours and travels booking platform built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) with a modern UI/UX design.
+# MERN Stack Tours & Travels Booking Website
 
-Features
-User Authentication: Register, login, and secure sessions using JWT and cookies.
-Tour Management: Add, update, delete, and view tours.
-Search Functionality: Search tours by title, location, or price range.
-Booking System: Book tours
-Review System: Users can add and view reviews for tours.
-Responsive Design: Optimized for desktop, tablet, and mobile devices.
-Modern UI/UX: Stylish design with seamless user experience.
-Tools and Technologies
-Frontend
-React.js: For building the user interface.
-CSS Modules: For styling the components.
-Axios: For making API requests.
-Backend
-Node.js: Server-side runtime environment.
-Express.js: Framework for building APIs.
-MongoDB: Database for storing user and tour data.
-Mongoose: For object data modeling.
-JWT: For secure authentication.
-Bcrypt: For password hashing.
-Getting Started
-Prerequisites
-Ensure you have the following installed:
+A fully functional tours and travels booking platform built using the MERN stack (MongoDB, Express.js, React.js, and Node.js) with a sleek, modern UI/UX design.
 
-Node.js (v14+)
-MongoDB ( Atlas)
-Git
-Installation
-Clone the repository:
+## Features
 
-git clone https://github.com/your-username/mern-travel-booking.git
+- **User Authentication**: Secure user registration, login, and sessions using JWT and cookies.
+- **Tour Management**: Add, update, delete, and view tours.
+- **Search Functionality**: Search tours by title, location, or price range.
+- **Booking System**: Users can book tours easily.
+- **Review System**: Users can add and view reviews for tours.
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
+- **Modern UI/UX**: Elegant, user-friendly design for a seamless experience.
 
-Install dependencies for the backend:
+## Tools and Technologies
 
-cd backend
-npm install
-Install dependencies for the frontend:
+### Frontend:
+- **React.js**: For building the user interface.
+- **CSS Modules**: For styling individual components.
+- **Axios**: For seamless API communication.
 
-cd ../frontend
-npm install
-Set up the .env file in the backend folder:
+### Backend:
+- **Node.js**: Server-side runtime environment.
+- **Express.js**: Framework for building RESTful APIs.
+- **MongoDB**: NoSQL database for storing user and tour data.
+- **Mongoose**: For object data modeling (ODM).
+- **JWT**: For secure authentication.
+- **Bcrypt**: For password hashing.
 
-MONGO_URL
-JWT_SECRET=your_jwt_secret
+## Getting Started
+
+### Prerequisites
+Make sure you have the following installed:
+- **Node.js** (v14+)
+- **MongoDB** (Atlas or local installation)
+- **Git**
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DasBytes/Travel-Booking-System.git
+   ```
+
+2. Install dependencies for the backend:
+   ```bash
+   cd backend
+   npm install
+   ```
+
+3. Install dependencies for the frontend:
+   ```bash
+   cd ../frontend
+   npm install
+   ```
+
+4. Set up the `.env` file in the backend folder with the following:
+   ```env
+   MONGO_URL=your_mongo_connection_string
+   JWT_SECRET=your_jwt_secret
+   ```
+
+5. Start the backend server:
+   ```bash
+   cd ../backend
+   npm run start-dev
+   ```
+
+6. Start the frontend server:
+   ```bash
+   cd ../frontend
+   npm start
+   ```
 
 
-Start the backend server:
 
-cd ../backend
-npm run start-dev
-Start the frontend server:
+## Snapshots
 
-cd ../frontend
-npm start
-Open your browser and navigate to:
+### Homepage
+Displays featured tours and an intuitive search functionality to explore available options.
 
-http://localhost:3000
-API Endpoints
-User Authentication
-POST /api/v1/auth/register: Register a new user.
-POST /api/v1/auth/login: Login user.
-Tours
-POST /api/v1/tours: Create a new tour.
-GET /api/v1/tours: Get all tours.
-GET /api/v1/tours/:id: Get a single tour by ID.
-PUT /api/v1/tours/:id: Update a tour.
-DELETE /api/v1/tours/:id: Delete a tour.
-Bookings
-POST /api/v1/bookings: Create a new booking.
-GET /api/v1/bookings: Get all bookings.
-Reviews
-POST /api/v1/reviews: Add a review.
-GET /api/v1/reviews: Get all reviews.
-Project Structure
-mern-travel-booking/
-|-- backend/
-|   |-- controllers/
-|   |-- models/
-|   |-- routes/
-|   |-- utils/
-|   |-- .env
-|   |-- index.js
-|
-|-- frontend/
-|   |-- src/
-|       |-- components/
-|       |-- pages/
-|       |-- App.js
-|-- README.md
-Snapshots
-Homepage:
+### Tour Details Page
+Shows a detailed view of a specific tour, including reviews and booking options.
 
-Displays featured tours and search functionality.
-Tour Details Page:
+## Contact
 
-Detailed view of a tour, including reviews and booking options.
-Contact
-For any queries or feedback, please reach out:
+For any queries or feedback, feel free to reach out:
 
-Email: prantadas85463@gamil.com
-GitHub: https://github.com/DasBytes/Travel-Booking-System.git
+- **Email**: prantadas85463@gmail.com
+- **GitHub**: [DasBytes](https://github.com/DasBytes/Travel-Booking-System.git)
+
